@@ -12,13 +12,11 @@ Utilização de shell script no linux demonstrando exemplos básicos
 * 1 comando PS com sua saída na tela. 
 
 ## Recursos 
-===========
 - [x] Linux Lubuntu
 - [x] Terminal
 - [x] Nano (editor)
 
 ## Coding
-=========
 ```
 // Cria arquivos de script
 $ touch script1.sh
