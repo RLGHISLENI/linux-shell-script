@@ -32,4 +32,25 @@ $ nano script1.sh
 $ ./script1.sh
 ```
 
+#### Detalhes sobre conceder permissão ao script 
+```
+// Permissão de execução e leitura apenas ao "proprietário"
+$ chmod 500 script1.sh 
+
+// Permissão de execução e leitura a todos os usuários
+$ chmod 555 script1.sh
+
+// Permissão de execução, leitura e escrita a todos os usuários
+$ chmod 777 script1.sh
+
+// Permissão de execução e leitura a "todos os "usuários" e permissão de escrita apenas ao "proprietário" do arquivo
+$ chmod 755 script1.sh 
+
+// Permissão de leitura ao "grupo" com permissão de execução apenas ao "proprietário
+$ chmod 740 script1.sh
+
+// Permissão de execução, leitura e escrita apenas ao "proprietário" arquivo
+$ chmod 700 script1.sh
+```
+
 ![Banana](http://cdn.osxdaily.com/wp-content/uploads/2013/07/dancing-banana.gif).
